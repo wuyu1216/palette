@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画板</title>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_518663_c6iw2gt1ienj0pb9.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <script src="js/palette.js"></script>
+    <script src="../../../../Downloads/jquery-3.2.1.js"></script>
+    <script src="../../../../Downloads/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <ul class="option">
+            <li id="newCreat" class="create">新建</li>
+            <li id="save" ><a href="">保存</a></li>
+            <li id="back">撤回</li>
+        </ul>
+        <ul class="shade">
+            <li id="line"><i class="iconfont">&#xe60b;</i></li>
+            <li id="dash"><i class="iconfont">&#xe667;</i></li>
+            <li id="pencil"><i class="iconfont">&#xe662;</i></li>
+            <li id="circle"><i class="iconfont">&#xe629;</i></li>
+            <li id="rect"><i class="iconfont">&#xe619;</i></li>
+            <li id="ploy"><i class="iconfont">&#xe62a;</i></li>
+            <li id="ployJ"><i class="iconfont">&#xe626;</i></li>
+            <li id="eraser" class="eraserBtn" ><i class="iconfont">&#xe77c;</i></li>
+
+        </ul>
+        <ul class="style">
+            <li class="styleBtn" id="fill">填充</li>
+            <li style="border:0;"><input type="color" id="fillStyle" style="width: 30px;"></li>
+            <li  class="styleBtn" id="stroke">描边</li>
+            <li style="border:0;"><input type="color" id="strokeStyle" style="width: 30px;"></li>
+            <li id="lineWidth">线宽</li>
+            <li style="border:0;"><input type="number" style="width: 30px;"></li>
+            <li id="font" class="fontBtn"><i class="iconfont" style="font-size:18px;">&#xe7a0;</i></li>
+            <li id="clip" class="clipBtn"><i class="iconfont" >&#xe698;</i></li>
+        </ul>
+
+    </header>
+    <section>
+        <div class="mask"></div>
+        <div class="eraser"></div>
+        <div class="clip"></div>
+    </section>
+</body>
+</html>
